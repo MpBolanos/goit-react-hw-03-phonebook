@@ -1,0 +1,64 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(17, 17, 26, 0.1), 0 8px 24px rgba(17, 17, 26, 0.1),
+      0 16px 48px rgba(17, 17, 26, 0.1);
+    padding: 30px;  
+    border-radius: 5px;
+  }
+
+  .contacts__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contacts__btn {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f3faff;
+    color: #afacac;
+    transition: all 800ms;
+    text-transform: capitalize;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .contacts__btn:hover {
+    background-color: #595a5c;
+    color: white;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.8);
+  }
+
+  .contacts__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+   
+    
+  }
+
+  .contacts__name {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+  }
+
+  .contacts__number {
+    font-weight: 600;
+    margin: 10px;
+    font-size: 15px;
+  }
